@@ -1,0 +1,9 @@
+.card button{
+    text-decoration: none;
+    border:none;
+    color:white;
+    background-color:firebrick;
+    width:100px;
+    height:40px;
+    
+}

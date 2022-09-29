@@ -1,0 +1,94 @@
+div.card {
+	button {
+		color: white;
+		background-color: rgb(0, 102, 255);
+		border: none;
+		height: 40px;
+		width: 80px;
+		transition: width height 3s ease-in;
+		text-decoration: none;
+		text-align: center;
+		border-radius:15px;
+		&:hover {
+			background-color: rgb(30, 81, 156);
+			width: 100px;
+			height: 55px;
+		}
+	}
+}
+.popustkontakt {
+	button {
+		text-decoration: none;
+		background-color: cornflowerblue;
+		color: white;
+		border: none;
+		width: 200px;
+		height: 50px;
+		border-radius:20px;
+		&:hover {
+			background-color: rgb(104, 104, 240);
+		}
+	}
+}
+
+nav {
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				letter-spacing: 0.25em;
+				text-transform: uppercase;
+				color:rgba(253, 253, 253, 0.637);
+				transition: color 0.3s linear;
+			}
+			
+		}
+	}
+}
+ul.navbar-nav {
+	li {
+		a {
+			&:hover {
+				color:gray;
+				text-decoration: underline;
+			}
+		}
+		a.active{
+			color:whitesmoke;
+			font-weight: bold;
+		}
+	}
+	li.nav-item.dropdown {
+		.dropdown-menu {
+			a {
+				letter-spacing: 0.2em;
+			}
+		}
+	}
+}
+footer {
+	color: azure;
+	a {
+		text-decoration: none;
+		color: azure;
+		&:hover {
+			color: gray;
+		}
+	}
+}
+
+.thumbnail {
+	a {
+		text-decoration: none;
+		font-size: 1.25em;
+		color: black;
+		&:hover {
+			color: gray;
+		}
+	}
+}
+
+.tranzicija {
+    transform: scale(1.4);
+}
+

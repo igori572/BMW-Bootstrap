@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stil2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Kontakt</title>
+
+  </head>
+  <body>
+      
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark ">
+            <a class="mx-2" href="index.html"><img  src ="img/logo.png" width="70" height="70" alt="Cinemark logo"></a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav me-auto ms-3">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Pocetna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="onama.html">O nama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galerija.html">Galerija</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dodaci</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="cenovnik.html">Cenovnik</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="faq.html">Česta pitanja</a>
+
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="kontakt.html">Kontakt</a>
+                </li>
+                </ul>
+                <ul class="navbar-nav me-3 ms-auto">
+                <li class="nav-item">
+                <form class="d-flex" action="#">
+                    <input class=" form-control" type="text" placeholder="Pretraži film">
+                    <button class="btn btn-success" type="submit">Pretraži</button>
+                </form>
+                </li>
+                </ul>
+            </div>
+        </nav>  
+    </header>
+
+        <div class="container">
+            <h2>Forma za rezervaciju</h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="form-group my-3">
+                        <label for="ime">Ime</label>
+                        <input type="text" class="form-control" id="ime" placeholder="Unesite ime" name="ime" >
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="prezime">Prezime</label>
+                        <input type="text" class="form-control" id="prezime" placeholder="Unesite Prezime" name="prezime">
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Unesite e-mail" name="email    ">
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="tel">Broj telefona</label>
+                        <input type="tel" id="tel" class="form-control"  placeholder="Unesite broj telefona" name="tel">
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="selekt">Dan</label>
+                        <select class="form-select" id="selekt" name="selekt" >
+                            <option value = "" selected>Odaberite </option>
+                            <option value="1">Ponedeljak</option>
+                            <option value="2">Utorak</option>
+                            <option value="3">Sreda</option>
+                            <option value="4">Četvrtak</option>
+                            <option value="5">Petak</option>
+                            <option value="6">Subota</option>
+                            <option value="7">Nedelja</option>
+                          </select>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="selekt2">Projekcija</label>
+                        <select class="form-select" id="selekt2" name="selekt2" >
+                            <option value ="" selected>Odaberite </option>
+                            <option value="1">2D</option>
+                            <option value="2">3D</option>
+                          </select>
+                    </div>
+                    <div class="popustkontakt mb-4">
+                    <button type="button" id="posalji" 
+                    data-bs-toggle="tooltip" title="Pošalji podatke" >Pošalji </button>
+                     </div>
+                    </form>
+                    <iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.467439142516!2d20.481072815534336!3d44.77127487909881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f77eb11611%3A0x61b80773eabf8bb0!2z0JrRg9C80L7QtNGA0LDRiNC60LAgMjMwLCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1609006182837!5m2!1ssr!2srs" width="630" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="text-center p-3" style="background-color: #212529">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Pocetna</a></li>
+                <li class="list-inline-item"><a href="onama.html">O nama</a></li>
+                <li class="list-inline-item"><a href="galerija.html">Galerija</a></li>
+                <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+                <li class="list-inline-item"><a href="cenovnik.html">Cenovnik</a></li>
+                <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+              </ul>
+                <i>©Copyright,Igor Ilić</i>
+            </div>
+            </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script>
+
+    $(document).ready(function(){
+    $('#posalji').click(function() {
+    var nameReg = /^[A-Za-z]+$/;
+    var numberReg =  /^[0-9]+$/;
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+    var ime = $('#ime').val();
+    var prezime = $('#prezime').val();
+    var email = $('#email').val();
+    var telefon = $('#tel').val();
+    var dan = $('#selekt').val();
+    var projekcija = $('#selekt2').val();    
+     
+    $('.greska').hide();
+
+        if(ime == ""){
+            $('#ime').after('<span class="greska text-danger"> Unesite ime </span>');
+            return;
+        } 
+        else if(!nameReg.test(ime)){
+            $('#ime').after('<span class="greska text-danger"> Unesite validno ime</span>');
+            return;
+        }
+
+        if(prezime== ""){
+            $('#prezime').after('<span class="greska text-danger"> Unesite prezime </span>');
+            return;
+        } 
+        else if(!nameReg.test(prezime)){
+            $('#prezime').after('<span class="greska text-danger"> Unesite validno prezime</span>');
+            return;
+        }
+
+        if(email == "" ){
+            $('#email').after('<span class="greska text-danger"> Unesite email </span>');
+            return;
+        } 
+        else if(!emailReg.test(email)){
+            $('#email').after('<span class="greska text-danger"> Unesite validnu email adresu</span>');
+            return;
+        }
+
+        if(telefon == ""){
+            $('#tel').after('<span class="greska text-danger"> Unesite telefon </span>');
+            return;
+        } 
+        else if(!numberReg.test(telefon)){
+            $('#tel').after('<span class="greska text-danger"> Unesite validni broj telefona</span>');
+            return;
+            
+        }
+
+        if(dan==""){
+            $('#selekt').after('<span class="greska text-danger"> Odaberite dan </span>');
+            return;
+        }
+        if(projekcija==""){
+            $('#selekt2').after('<span class="greska text-danger"> Odaberite projekciju </span>');
+            return;
+        }
+        
+        alert("Uspesno ste uneli formu.");
+        return true;
+    });
+    });
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+    </script>
+
+  </body>
+</html>

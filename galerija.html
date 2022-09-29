@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stil2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Galerija</title>
+
+  </head>
+  <body>
+      
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark">
+          <a class="mx-2" href="index.html"><img  src ="img/logo.png" width="70" height="70" alt="Cinemark logo"></a>
+          <button class="navbar-toggler  navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav me-auto ms-3">
+              <li class="nav-item ">
+                  <a class="nav-link " href="index.html">Pocetna</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="onama.html">O nama</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="galerija.html">Galerija</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dodaci</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="cenovnik.html">Cenovnik</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="faq.html">Česta pitanja</a>
+
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+              </ul>
+              <ul class="navbar-nav me-3 ms-auto">
+              <li class="nav-item">
+              <form class="d-flex" action="#">
+                  <input class=" form-control" type="text" placeholder="Pretraži film">
+                  <button class="btn btn-success" type="submit">Pretraži</button>
+              </form>
+              </li>
+              </ul>
+          </div>
+      </nav>  
+  </header>
+
+    <div class="card text-white">
+        <img src="img/pozadina3.jpg" class="card-img" alt="Galerija" style="height: 500px;">
+        <div class="card-img-overlay" >
+        <div class="moje" style="border-left:5px gray solid;">
+          <h2 class="card-title">Galerija</h2>
+          <p style="font-size: 1.2em;" class="card-text">Porodični filmovi, romantični filmovi, filmovi 80-ih... <br>
+            Uvek imamo odgovarajuću projekciju na Vaš zahtev.</p>
+        </div>
+        </div>
+      </div>
+
+
+        <div class="container">
+           <div class="row my-4" data-toggle="modal">
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika1" data-bs-toggle="modal" data-bs-target="#modalniProzor">
+                  <img src="img/gal2.jpg" alt="Jumanji" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Avantura</p>
+                  </div>
+                  </a>
+                </div>
+               </div>
+               
+               
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika2" data-bs-toggle="modal" data-bs-target="#modalniProzor2">
+                  <img src="img/gal1.jpg" alt="Hobbs&Shaw" style="width:100%" >
+                  <div class="caption">
+                  <p class="text-center">Akcija</p>
+                  </div>
+                  </a>
+                </div>
+                  
+               </div>
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika3" data-bs-toggle="modal" data-bs-target="#modalniProzor3">
+                  <img src="img/gal5.jpg" alt="Once upon a time" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Komedija</p>
+                  </div>
+                  </a>
+               </div>
+               </div>
+               <div class="col-sm-6 col-lg-3" >
+                <div class="thumbnail" id="slika4" data-bs-toggle="modal" data-bs-target="#modalniProzor4">
+                  <img src="img/gal4.jpg" alt="The call of a wild" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Drama</p>
+                  </div>
+                  </a>
+               </div>
+               </div>
+
+
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika5" data-bs-toggle="modal" data-bs-target="#modalniProzor5">
+                  <img src="img/gal6.jpg" alt="Avatar" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Fantazija</p>
+                  </div>
+                  </a>
+               </div>
+               </div>
+               <div class="col-sm-6 col-lg-3">
+                 <div class="thumbnail" id="slika6" data-bs-toggle="modal" data-bs-target="#modalniProzor6">
+                  <img src="img/gal7.jpg" alt="Midnight sun" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Romansa</p>
+                  </div>
+                  </a>
+               </div>
+              </div>
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika7" data-bs-toggle="modal" data-bs-target="#modalniProzor7">
+                  <img src="img/gal8.jpg" alt="Nightcrawler" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Triler</p>
+                  </div>
+                  </a>
+               </div>
+               </div>
+               <div class="col-sm-6 col-lg-3">
+                <div class="thumbnail" id="slika8" data-bs-toggle="modal" data-bs-target="#modalniProzor8">
+                  <img src="img/gal3.jpg" alt="Django" style="width:100%">
+                  <div class="caption">
+                  <p class="text-center">Vestern</p>
+                  </div>
+                  </a>
+               </div>
+               </div>
+           </div>
+ 
+            <div class="modal fade" id="modalniProzor">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">Slika</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/gal2.jpg" alt="Jumanji" style="width:100%" id="img1">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalniProzor2">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title">Slika</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body" >
+                        <img src="img/gal1.jpg" alt="Jumanji" style="width:100%" id="img2">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalniProzor3">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Slika</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" >
+                    <img src="img/gal5.jpg" alt="Once upon a time" style="width:100%" id="img3">
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalniProzor4">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Slika</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" >
+                <img src="img/gal4.jpg" alt="The call of a wild" style="width:100%" id="img4">
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="modalniProzor5">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Slika</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" >
+                <img src="img/gal6.jpg" alt="Avatar" style="width:100%" id="img5">
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="modalniProzor6">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Slika</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" >
+                <img src="img/gal7.jpg" alt="Midnight sun" style="width:100%" id="img6">
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="modalniProzor7">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Slika</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" >
+                <img src="img/gal8.jpg" alt="Nightcrawler" style="width:100%" id="img7">
+            <div class="modal-footer">
+            <button type="button" id="zatvori" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="modal fade" id="modalniProzor8">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Slika</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" >
+                <img src="img/gal3.jpg" alt="Django" style="width:100%" id="img8">
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        <footer>
+          <div class="text-center p-3" style="background-color: #212529">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="index.html">Pocetna</a></li>
+              <li class="list-inline-item"><a href="onama.html">O nama</a></li>
+              <li class="list-inline-item"><a href="galerija.html">Galerija</a></li>
+              <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+              <li class="list-inline-item"><a href="cenovnik.html">Cenovnik</a></li>
+              <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+            </ul>
+              <i>©Copyright,Igor Ilić</i>
+          </div>
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<script>
+    $("[id^=slika]").click(function(){
+        $("[id^=img]").fadeOut(function(){
+            $("[id^=img").fadeIn(function(){});          
+        });
+    });
+    $("#zatvori").click(function(){
+        $("[id^=img]").stop();
+    });
+
+  $(document).ready(function(){
+    $("[id^=slika]").hover(function(){
+       $(this).addClass("tranzicija");
+    },
+    function(){
+      $(this).removeClass("tranzicija");
+    });
+  });
+
+ 
+</script>
+  </body>
+</html>

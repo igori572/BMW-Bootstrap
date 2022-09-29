@@ -1,0 +1,84 @@
+div.card button {
+  color: white;
+  background-color: #0066ff;
+  border: none;
+  height: 40px;
+  width: 80px;
+  -webkit-transition: width height 3s ease-in;
+  transition: width height 3s ease-in;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+}
+
+div.card button:hover {
+  background-color: #1e519c;
+  width: 100px;
+  height: 55px;
+}
+
+.popustkontakt button {
+  text-decoration: none;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.popustkontakt button:hover {
+  background-color: #6868f0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(253, 253, 253, 0.637);
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+ul.navbar-nav li a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+ul.navbar-nav li a.active {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+ul.navbar-nav li.nav-item.dropdown .dropdown-menu a {
+  letter-spacing: 0.2em;
+}
+
+footer {
+  color: azure;
+}
+
+footer a {
+  text-decoration: none;
+  color: azure;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+.thumbnail a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+}
+
+.thumbnail a:hover {
+  color: gray;
+}
+
+.tranzicija {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+/*# sourceMappingURL=stil2.css.map */
